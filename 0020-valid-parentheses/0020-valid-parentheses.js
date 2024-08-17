@@ -34,3 +34,89 @@ console.log(isValid("(()[)]{}")); // false
 console.log(isValid("(]")); // false
 console.log(isValid("([)]")); // false
 console.log(isValid("{[]}")); // true
+
+
+
+
+// Valid Example: "()[]{}"
+// 	1. Initial Setup:
+// 		○ bracketMap = { ')': '(', ']': '[', '}': '{' }
+// 		○ stack = []
+// 	2. Iteration Details:
+// 		○ Character: (
+// 			§ bracketMap['('] is undefined (not a closing bracket).
+// 			§ Push '(' onto stack.
+// 			§ stack = ['(']
+// 		○ Character: )
+// 			§ bracketMap[')'] is '('.
+// 			§ Top of stack is '(', which matches '('.
+// 			§ Pop '(' from stack.
+// 			§ stack = []
+// 		○ Character: [
+// 			§ bracketMap['['] is undefined (not a closing bracket).
+// 			§ Push '[' onto stack.
+// 			§ stack = ['[']
+// 		○ Character: ]
+// 			§ bracketMap[']'] is '['.
+// 			§ Top of stack is '[', which matches '['.
+// 			§ Pop '[' from stack.
+// 			§ stack = []
+// 		○ Character: {
+// 			§ bracketMap['{'] is undefined (not a closing bracket).
+// 			§ Push '{' onto stack.
+// 			§ stack = ['{']
+// 		○ Character: }
+// 			§ bracketMap['}'] is '{'.
+// 			§ Top of stack is '{', which matches '{'.
+// 			§ Pop '{' from stack.
+// 			§ stack = []
+// 	3. Final Check:
+// 		○ stack.length is 0, so return true.
+
+// --------------------------------------------------
+
+// Invalid Example: "(()[)]{}"
+// 	1. Initial Setup:
+// 		○ bracketMap = { ')': '(', ']': '[', '}': '{' }
+// 		○ stack = []
+// 	2. Iteration Details:
+// 		○ Character: (
+// 			§ bracketMap['('] is undefined (not a closing bracket).
+// 			§ Push '(' onto stack.
+// 			§ stack = ['(']
+// 		○ Character: (
+// 			§ bracketMap['('] is undefined (not a closing bracket).
+// 			§ Push '(' onto stack.
+// 			§ stack = ['(', '(']
+// 		○ Character: )
+// 			§ bracketMap[')'] is '('.
+// 			§ Top of stack is '(', which matches '('.
+// 			§ Pop '(' from stack.
+// 			§ stack = ['(']
+// 		○ Character: [
+// 			§ bracketMap['['] is undefined (not a closing bracket).
+// 			§ Push '[' onto stack.
+// 			§ stack = ['(', '[']
+// 		○ Character: ]
+// 			§ bracketMap[']'] is '['.
+// 			§ Top of stack is '[', which matches '['.
+// 			§ Pop '[' from stack.
+// 			§ stack = ['(']
+// 		○ Character: )
+// 			§ bracketMap[')'] is '('.
+// 			§ Top of stack is '(', which matches '('.
+// 			§ Pop '(' from stack.
+// 			§ stack = []
+// 		○ Character: {
+// 			§ bracketMap['{'] is undefined (not a closing bracket).
+// 			§ Push '{' onto stack.
+// 			§ stack = ['{']
+// 		○ Character: }
+// 			§ bracketMap['}'] is '{'.
+// 			§ Top of stack is '{', which matches '{'.
+// 			§ Pop '{' from stack.
+// 			§ stack = []
+// 	3. Final Check:
+// 		○ stack.length is 0, so return true.
+
+
