@@ -3,28 +3,34 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    const openingBrackets = ['(', '[', '{'];
-    const closingBrackets = [')', ']', '}'];
+    const bracketMap = {
+        ')': '(',
+        ']': '[',
+        '}': '{'
+    };
     const stack = [];
-
-    for(let i=0;  i<s.length; i++){
+    
+    for (let i = 0; i < s.length; i++) {
         const char = s[i];
         
-        if(openingBrackets.includes(char)){
-            stack.push(char);
-        }else if(closingBrackets.includes(char)){
-            if (stack.length === 0) {
-                  return false;
-            }
-            const openingBracket = stack.pop();
-            if (openingBrackets.indexOf(openingBracket) !== closingBrackets.indexOf(char)) {
+        if (bracketMap[char]) {
+            // If it's a closing bracket
+            if (stack.length === 0 || stack[stack.length - 1] !== bracketMap[char]) {
                 return false;
             }
+            stack.pop();
+        } else {
+            // If it's an opening bracket
+            stack.push(char);
         }
     }
-     return stack.length === 0;
+    
+    return stack.length === 0;
 };
 
-isValid("()");
-isValid("()[]{}");
-isValid("(]");
+// Test cases
+console.log(isValid("()[]{}")); // true
+console.log(isValid("(()[)]{}")); // false
+console.log(isValid("(]")); // false
+console.log(isValid("([)]")); // false
+console.log(isValid("{[]}")); // true
