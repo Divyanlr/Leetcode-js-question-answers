@@ -26,6 +26,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0027-remove-element) |
 ## Two Pointers
@@ -34,4 +35,8 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0027-remove-element) |
 | [1894-merge-strings-alternately](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/1894-merge-strings-alternately) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
