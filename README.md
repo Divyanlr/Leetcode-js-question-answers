@@ -48,4 +48,8 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0004-median-of-two-sorted-arrays) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
