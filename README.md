@@ -32,6 +32,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0027-remove-element) |
+| [0041-first-missing-positive](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0041-first-missing-positive) |
 ## Two Pointers
 |  |
 | ------- |
@@ -43,6 +44,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0013-roman-to-integer) |
+| [0041-first-missing-positive](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0041-first-missing-positive) |
 ## Binary Search
 |  |
 | ------- |
