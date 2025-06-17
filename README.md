@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0023-merge-k-sorted-lists) |
 ## Recursion
 |  |
 | ------- |
@@ -50,9 +51,18 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0023-merge-k-sorted-lists) |
 ## Math
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0013-roman-to-integer) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
