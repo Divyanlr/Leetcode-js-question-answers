@@ -4,6 +4,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0020-valid-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/1894-merge-strings-alternately) |
@@ -40,6 +41,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0013-roman-to-integer) |
 ## Binary Search
 |  |
 | ------- |
@@ -52,4 +54,5 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
