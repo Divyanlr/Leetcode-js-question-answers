@@ -8,6 +8,7 @@
 | [0014-longest-common-prefix](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0032-longest-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0044-wildcard-matching) |
 | [1894-merge-strings-alternately](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/1894-merge-strings-alternately) |
 ## Trie
 |  |
@@ -27,6 +28,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0044-wildcard-matching) |
 ## Array
 |  |
 | ------- |
@@ -73,4 +75,9 @@
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0032-longest-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0044-wildcard-matching) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
