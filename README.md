@@ -40,6 +40,7 @@
 | [0027-remove-element](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0027-remove-element) |
 | [0041-first-missing-positive](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0056-merge-intervals) |
 ## Two Pointers
 |  |
 | ------- |
@@ -93,4 +94,5 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/Divyanlr/Leetcode-js-question-answers/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
